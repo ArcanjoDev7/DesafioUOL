@@ -10,6 +10,7 @@ public class CodinameHandler {
 
     @Autowired
     private CodinameService service;
+
     public String findCodiname(GroupType groupType) {
         if(groupType == GroupType.AVANGERS){
             String firstMatch = service.getAvangersCodinameList().stream().findFirst().orElseThrow();

@@ -70,5 +70,4 @@ public class CodinameService {
             e.printStackTrace();
         }
     }
-
 }

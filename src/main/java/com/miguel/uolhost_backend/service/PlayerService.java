@@ -29,5 +29,4 @@ public class PlayerService {
     public List<Player> getAllPlayer(){
         return repository.findAll();
     }
-
 }

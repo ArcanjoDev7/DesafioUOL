@@ -14,5 +14,4 @@ public class ControllerExceptionHandler {
         ExceptionDTO dto = new ExceptionDTO("essa lista nao existe mais usuario existentes", "400");
         return ResponseEntity.badRequest().body(dto);
     }
-
 }

@@ -27,6 +27,7 @@ public class PlayerController {
         Player newPlayer = service.createPlayer(dto);
         return new ResponseEntity<>(newPlayer, HttpStatus.CREATED);
     }
+
     @GetMapping
     private ResponseEntity<List<Player>> getAllPlayers(GroupType groupType){
         return new ResponseEntity<>(service.getAllPlayer(),HttpStatus.OK);
